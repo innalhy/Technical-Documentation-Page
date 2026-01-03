@@ -1,12 +1,12 @@
 ## Build a Technical Documentation Page 
 
-#### Tech Stack
+### Tech Stack: 
 
 - **HTML5**: For semantic structure and content organization.
 - **CSS3**: Custom styling with Flexbox-like positioning, media queries for responsiveness, and visual enhancements (e.g., code blocks, tables).
 - **Bootstrap 5.3.3**: Used via CDN for responsive grid system, utility classes, and components (e.g., note boxes).
 
-#### Features
+### Features: 
 
 - **Fixed Sidebar Navigation**: A persistent left-hand navbar with smooth-scrolling links to all documentation sections. On larger screens, it remains fixed; on smaller screens, it collapses to the top.
 - **Responsive Design**: 
@@ -21,7 +21,7 @@
 - **Accessibility Considerations**: Semantic HTML (nav, main, section, header), proper heading hierarchy, and sufficient color contrast.
 - **Content Coverage**: 9 well-structured sections introducing Python basics, including installation, comparison with C++, variables, data types (mislabelled but covers globals), dictionaries, and built-in math functions.
 
-#### User Stories (Completion Status)
+### User Stories (Completion Status): 
 
 All required freeCodeCamp user stories for the "Build a Technical Documentation Page" project are met:
 
