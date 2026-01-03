@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">1. Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know">2. What you should already know</a></li>
+        <li><a class="nav-link" href="#Python">3. Python and C++</a></li>
+        <li><a class="nav-link" href="#Hello_world">4. Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">5. Variables</a></li>
+        <li><a class="nav-link" href="#Declaring_variables">6. Data Types</a></li>
+        <li><a class="nav-link" href="#Variable_scope">7. Dictionaries</a></li>
+        <li><a class="nav-link" href="#Global_variables">8. Built-in Math Functions</a></li>
+        <li><a class="nav-link" href="#Reference">9. Reference</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>1. Introduction</header>
+        <article>
+          <p>
+            Python is a high level general-purpose programming language. It uses a multi-paradigm approach, meaning it supports procedural, object-oriented, and some functional programming constructs.
+          </p>
+          <p>
+            It was created by Guido van Rossum as a successor to another language (called ABC) between 1985 and 1990, and is currently used on a large array of domains like web development, desktop applications, data science, DevOps, and automation/productivity.
+          </p>
+          <p>
+            Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use. Python's license is administered by the <a href="https://www.python.org/psf-landing/">Python Software Foundation</a>.
+          </p>
+          <header>See also</header>
+          <ul>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> on Wikipedia
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_you_should_already_know">
+        <header>2. What you should already know</header>
+        <article>
+          <header>Python Install</header>
+          <p>Many PCs and Macs will have python already installed.</p>
+          <p>To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):</p>
+          <code>C:\Users\Your Name>python --version</code>
+          <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:</p>
+          <code>python --version</code>
+          <p>If you find that you do not have Python installed on your computer, then you can download it for free from the following website: <a href="https://www.python.org/">https://www.python.org/</a></p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Python">
+        <header>3. Python and C++</header>
+        <article>
+          <p>Python and C++ both are the most popular and general-purpose programming languages. They both support Object-Oriented Programming (OPP) yet they are a lot different from one another. In this article, we will discuss how Python is different from C++.</p>
+          <header>Difference Between C++ vs Python</header>
+          <p>The following table shows the key difference between Python and C++ programming languages.</p>
+          <table>
+            <tr>
+              <th>Parameters</th>
+              <th>Python</th>
+              <th>C++</th>
+            </tr>
+            <tr>
+              <td>Code</td>
+              <td>Python has fewer lines of code</td>
+              <td>C++ tends to have long lines of code</td>
+            </tr>
+            <tr>
+              <td>Syntax</td>
+              <td>It uses short-hand syntax and has numerous short-hand structural iterators. It requires 'self' as a parameter to any class instance method. Some of the short-hand syntaxes are confusing (e.g. `rkwargs`) but rarely is anything in Python completely esoteric.</td>
+              <td>It has a stiff learning curve as it has lots of predefined syntaxes and structures. C++ uses implicitly 'this' to refer to class instances. Some syntax in C++ is extremely esoteric.</td>
+            </tr>
+            <tr>
+              <td>Compilation</td>
+              <td>Python is interpreted</td>
+              <td>C++ is precompiled</td>
+            </tr>
+            <tr>
+              <td>Speed</td>
+              <td>It is slower since it uses an interpreter and also determines the data type at run time</td>
+              <td>It is faster once compiled as compared to python</td>
+            </tr>
+            <tr>
+              <td>Efficiency</td>
+              <td>Specialized formatting not common in other languages, script-like language, OOP features, code reuse through libraries</td>
+              <td>C-like syntax, powerful OOP features and operator overloading, best compile-time optimizer</td>
+            </tr>
+            <tr>
+              <td>Nature</td>
+              <td>It is dynamically typed.</td>
+              <td>It is statically typed.</td>
+            </tr>
+            <tr>
+              <td>Functions</td>
+              <td>Python Functions do not have restrictions on the type of the argument and the type of its return value</td>
+              <td>In C++, the function can accept and return the type of value which is already defined.</td>
+            </tr>
+            <tr>
+              <td>Scope of Variable</td>
+              <td>Variables are accessible even outside the loop.</td>
+              <td>The scope of variables is limited within the loops.</td>
+            </tr>
+            <tr>
+              <td>Extension</td>
+              <td>Python programs are saved with the .py extension.</td>
+              <td>C++ programs are saved with the .cpp extension</td>
+            </tr>
+            <tr>
+              <td>Popularity</td>
+              <td>It has huge community support. When it comes to popularity, beginner and novice programmers tend to turn to Python.</td>
+              <td>It also has dedicated followings online. But only the people who have some experience in the field show a lot of interest in C++.</td>
+            </tr>
+            <tr>
+              <td>Garbage Collection</td>
+              <td>It supports garbage collection.</td>
+              <td>It doesn't support garbage collection, but it can be implemented.</td>
+            </tr>
+            <tr>
+              <td>Rapid Prototyping</td>
+              <td>Rapid Prototyping is possible, with easy project setup, live interpreter.</td>
+              <td>Rapid Prototyping is possible, but project setup can be complicated, live interpreter through IRC bot.</td>
+            </tr>
+            <tr>
+              <td>Application Domain</td>
+              <td>Web development, data analysis, scientific computations, etc.</td>
+              <td>Game development, embedded systems, etc.</td>
+            </tr>
+            <tr>
+              <td>Variable Declaration</td>
+              <td>Variables are declared by simply writing their name with their datatype.</td>
+              <td>While declaring a variable it is necessary to mention its datatype.</td>
+            </tr>
+            <tr>
+              <td>Installation on Windows</td>
+              <td>Difficult to install on Windows.</td>
+              <td>Easy to install on Windows.</td>
+            </tr>
+          </table>
+        </article>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>4. Hello world</header>
+        <article>
+          To get started with writing Python, open <a href="https://jupyter.org/">Jupyter Notebook</a> and write your first "Hello world" Python code:
+          <code>print("Hello, World!")</code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>5. Variables</header>
+        <article>
+          <header>Creating Variables</header>
+          <p>Python has no command for declaring a variable.</p>
+          <code>x = 5
+y = "John"
+print(x)
+print(y)</code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Declaring_variables">
+        <header>6. Data Types</header>
+        <article>
+          <header>Global Variables</header>
+          <p>Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.</p>
+          <p>Global variables can be used by everyone, both inside of functions and outside.</p>
+          <code>x = "awesome"
+def myfunc():
+  print("Python is " + x)
+myfunc()</code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Variable_scope">
+        <header>7. Dictionaries</header>
+        <article>
+          <p>Dictionaries are used to store data values in key:value pairs.</p>
+          <p>A dictionary is a collection which is ordered*, changeable and do not allow duplicates.</p>
+          <div class="alert alert-primary" role="alert">
+            As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+          </div>
+          <p>Dictionaries are written with curly brackets, and have keys and values:</p>
+          <code>thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)</code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Global_variables">
+        <header>8. Built-in Math Functions</header>
+        <article>
+          <p>Python has a set of built-in math functions, including an extensive math module, that allows you to perform mathematical tasks on numbers.</p>
+          <p>The min() and max() functions can be used to find the lowest or highest value in an iterable:</p>
+          <code>x = min(5, 10, 25)
+y = max(5, 10, 25)
+print(x)
+print(y)</code>
+          <p>The abs() function returns the absolute (positive) value of the specified number:</p>
+          <code>x = abs(-7.25)
+print(x)</code>
+          <p>The pow(x, y) function returns the value of x to the power of y (xʸ).</p>
+          <code>x = pow(4, 3)
+print(x)</code>
+          <p>Return the value of 4 to the power of 3 (same as 4 * 4 * 4).</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>9. Reference</header>
+        <article>
+          <ul>
+            <li>All the documentation in this page is taken from various sources including official Python documentation and tutorials.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
